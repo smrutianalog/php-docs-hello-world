@@ -1,0 +1,11 @@
+server {
+
+    # Section Excluded
+
+    location / {
+        index  index.php index.html index.htm hostingstart.html;
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    # Section Excluded
+}
